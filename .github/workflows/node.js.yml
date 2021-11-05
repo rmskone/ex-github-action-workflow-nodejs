@@ -1,8 +1,6 @@
 # steps.yml
 name: steps
-on:
-  push:
-    branches: [ master ]
+on: push
 jobs:
   run:
     runs-on: ubuntu-latest
