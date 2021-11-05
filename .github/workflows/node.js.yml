@@ -32,7 +32,7 @@
 name: build
 on:
 push:
-paths: - '\*\*.js'
+paths: - '**.js'
 jobs:
 build:
 name: my job
